@@ -53,7 +53,7 @@ __Note:__ You do not need to install anything on the browser to use this plugin.
      | ==lib/Foswiki/Plugins/%TOPIC%.pm== | Plugin Perl module |
    * *IMPORTANT*: In order to see the navigation bar you *must* update =templates/view.pattern.tmpl= to contain the lines:
 <verbatim>
-<div class="patternTopic">%TEXT%
+<div class="foswikiTopic">%TEXT%
 %SLIDENAVBAR%
 #TopicEnd
 </verbatim>
